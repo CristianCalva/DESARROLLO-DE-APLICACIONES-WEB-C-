@@ -1,0 +1,90 @@
+/* Fondo de la página y texto general */
+body {
+  background-color: #e0dbdb; 
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Encabezados */
+h1 {
+  color: #040404;
+  text-align: center;
+}
+
+h3 {
+  color: #000000;
+  text-align: left;
+}
+
+h4 {
+  color: #000000;
+  text-align: center;
+}
+
+/* Párrafos */
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Formulario */
+form {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #081117;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+/* Campos del formulario */
+input[type="text"],
+input[type="email"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botón */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Tabla */
+table {
+  width: 40%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #444;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0986e6;
+  color: white;
+}
+
+/* Enlace */
+footer {
+    background-color: #f9f2f2;
+    color: #0f0b0b;
+    text-align: center;
+    padding: 10px;
+}
