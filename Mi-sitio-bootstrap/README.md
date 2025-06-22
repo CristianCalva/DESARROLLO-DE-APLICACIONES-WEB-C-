@@ -4,6 +4,7 @@ Este es un sitio web responsivo desarrollado con <!--HTML5, CSS3, Bootstrap 5-->
 
 <!--Estructura del Proyecto-->
 
+```
 mi-sitio-bootstrap/
 ├── index.html
 ├── styles.css
@@ -13,6 +14,7 @@ mi-sitio-bootstrap/
 │ ├── Zapato.deportivo.avif
 │ └── Zapatillas.deportivas.webp
 └── README.md
+```
 
 <!--Contenido de la Página-->
 
