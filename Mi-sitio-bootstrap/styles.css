@@ -1,0 +1,152 @@
+/* Fondo general */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos del encabezado */
+h1 {
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+p.lead {
+  color: #555;
+  font-style: italic;
+}
+
+/* Estilo del botón primario */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(255, 87, 51, 0.4);
+}
+
+.btn-primary:hover {
+  background-color: #e04e2a;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(224, 78, 42, 0.6);
+}
+
+/* Estilo para tarjetas */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para la tabla de precios */
+table.table {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #f3ede4; /* color suave, no chillón */
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+table.table thead th {
+  background-color: #c2aa7b;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+}
+
+table.table td {
+  background-color: #fcf9f4;
+  color: #4d4435;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px solid #e0d6c2;
+}
+
+table.table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Estilos para el formulario */
+form {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+input.form-control,
+textarea.form-control {
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  transition: border-color 0.3s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  border-color: #ff5733;
+  box-shadow: 0 0 0 0.2rem rgba(255, 87, 51, 0.25);
+}
+
+/* Pie de página */
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 14px;
+}
+
+footer a {
+  color: #444;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 575.98px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .btn-primary {
+    background-color: #cc4626;
+  }
+
+  .btn-primary:hover {
+    background-color: #b03e21;
+  }
+
+  table.table {
+    width: 100%;
+  }
+
+  footer {
+    background-color: #222;
+    color: #fff;
+  }
+
+  footer a {
+    color: #ddd;
+  }
+}
+
+
