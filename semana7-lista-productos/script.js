@@ -39,7 +39,7 @@ let productos = [
   nombre: "Memoria USB",
   precio: 10.00,
   descripcion: "Memoria USB 64GB con alta velocidad de transferencia y diseño compacto."
- }
+ },
  {
   nombre: "Router Wi-Fi",
   precio: 45.00,
