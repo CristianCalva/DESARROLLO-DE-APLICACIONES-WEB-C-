@@ -1,0 +1,17 @@
+/* Estilo personalizado para navbar */
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #ffcc00 !important;
+}
+
+.navbar {
+  background-color: #111010 !important;
+}
+
+/* Flechas visibles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(224, 7, 7, 0.8);
+  border-radius: 50%;
+}
